@@ -22,6 +22,12 @@ class Test(unittest.TestCase):
     def test6(self):
         self.assertFalse(contrived_func(79))
 
+    def test6(self):
+        self.assertFalse(contrived_func(81))
+
+    def test6(self):
+        self.assertFalse(contrived_func(71))
+
 
 if __name__ == '__main__':
     unittest.main()
