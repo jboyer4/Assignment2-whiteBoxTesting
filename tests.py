@@ -13,8 +13,11 @@ class Test(unittest.TestCase):
     def test3(self):
         self.assertTrue(contrived_func(155))
 
-    def test3(self):
+    def test4(self):
         self.assertTrue(contrived_func(7))
+
+    def test5(self):
+        self.assertTrue(contrived_func(5))
 
 
 if __name__ == '__main__':
