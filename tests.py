@@ -17,7 +17,7 @@ class Test(unittest.TestCase):
         self.assertTrue(contrived_func(7))
 
     def test5(self):
-        self.assertTrue(contrived_func(5))
+        self.assertTrue(contrived_func(75))
 
     def test6(self):
         self.assertFalse(contrived_func(79))
@@ -27,9 +27,6 @@ class Test(unittest.TestCase):
 
     def test6(self):
         self.assertFalse(contrived_func(71))
-
-    def test7(self):
-        self.assertFalse(contrived_func(-10))
 
 
 if __name__ == '__main__':
