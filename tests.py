@@ -20,7 +20,7 @@ class Test(unittest.TestCase):
         self.assertTrue(contrived_func(5))
 
     def test6(self):
-        self.assertTrue(contrived_func(79))
+        self.assertFalse(contrived_func(79))
 
 
 if __name__ == '__main__':
