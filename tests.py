@@ -28,6 +28,9 @@ class Test(unittest.TestCase):
     def test6(self):
         self.assertFalse(contrived_func(71))
 
+    def test7(self):
+        self.assertFalse(contrived_func(-10))
+
 
 if __name__ == '__main__':
     unittest.main()
