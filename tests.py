@@ -23,9 +23,6 @@ class Test(unittest.TestCase):
         self.assertFalse(contrived_func(79))
 
     def test7(self):
-        self.assertFalse(contrived_func(81))
-
-    def test8(self):
         self.assertFalse(contrived_func(71))
 
 
