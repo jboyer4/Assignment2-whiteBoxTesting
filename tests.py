@@ -22,10 +22,10 @@ class Test(unittest.TestCase):
     def test6(self):
         self.assertFalse(contrived_func(79))
 
-    def test6(self):
+    def test7(self):
         self.assertFalse(contrived_func(81))
 
-    def test6(self):
+    def test8(self):
         self.assertFalse(contrived_func(71))
 
 
