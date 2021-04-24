@@ -7,7 +7,7 @@ def test1(self):
 
 
 def test2(self):
-    self.assertTrue(contrived_func(6))
+    self.assertFalse(contrived_func(6))
 
 
 if __name__ == '__main__':
